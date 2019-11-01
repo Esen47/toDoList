@@ -1,4 +1,5 @@
 body{
+    position: relative;
     margin: 0;
     font-family: Arial, sans-serif;
     background: #352f5b;
@@ -20,4 +21,17 @@ input[type=text]:focus{
 }
 .delete{
     cursor: pointer;
+}
+.warning {
+    position: absolute;
+    width: 300px;
+    height: 100px;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 100px;
+    top: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #9477cb;
+    color: #fff;
 }
