@@ -12,7 +12,6 @@ const generateTemplate = todo => {
     `;
     list.innerHTML += html;
 }
-
 //getting user input
 addForm.addEventListener('submit', e => {
     e.preventDefault();
@@ -33,7 +32,6 @@ addForm.addEventListener('submit', e => {
         })();
     }
 });
-
 //deleting items
 list.addEventListener('click', e => {
     if(e.target.classList.contains('delete')){
