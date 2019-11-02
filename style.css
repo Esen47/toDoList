@@ -22,16 +22,19 @@ input[type=text]:focus{
 .delete{
     cursor: pointer;
 }
-.warning {
+.warning{
     position: absolute;
     width: 300px;
-    height: 100px;
+    height: 95px;
     border-radius: 5px;
     text-align: center;
-    line-height: 100px;
+    line-height: 95px;
     top: -25px;
     left: 50%;
     transform: translateX(-50%);
     background: #9477cb;
     color: #fff;
+}
+.filtered{
+    display: none !important;
 }
