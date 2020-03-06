@@ -24,11 +24,12 @@ addForm.addEventListener('submit', e => {
          (() => {
             const el = document.createElement('div');
             el.classList.add('warning');
-            el.innerHTML = '<p>Please enter a desired action</p>';
+            el.innerHTML = '<p>Please fill out the field</p>';
             document.body.appendChild(el);
             setTimeout(() => {
                 document.body.removeChild(el);
-            },2500)
+            },2000);
+            scrollTo(0,0);
         })();
     }
 });
